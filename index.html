@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- 
+responsive wp 
+-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Hamburger Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <div class="burger"></div>
+  </div>
+ 
+  <script>
+    const toggle = document.getElementById("menu");
+    toggle.onclick = () => {
+      toggle.classList.toggle("active")
+    }
+  </script>
+</body>
+
+</html>
